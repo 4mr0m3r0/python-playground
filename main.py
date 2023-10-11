@@ -1,10 +1,9 @@
-from algorithms import TournamentWinner
+from algorithms import NonConstructibleChange
 
 
 def run_script():
-    result = TournamentWinner.tournament_winner(
-        competitions=[["HTML", "C#"], ["C#", "Python"], ["Python", "HTML"]],
-        results=[0, 0, 1]
+    result = NonConstructibleChange.non_constructible_change(
+        coins=[5, 7, 1, 1, 2, 3, 22]
     )
     print(result)
 
