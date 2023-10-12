@@ -1,9 +1,9 @@
-from algorithms import NonConstructibleChange
+from algorithms import TransposeMatrix
 
 
 def run_script():
-    result = NonConstructibleChange.non_constructible_change(
-        coins=[5, 7, 1, 1, 2, 3, 22]
+    result = TransposeMatrix.transpose_matrix(
+        matrix=[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     )
     print(result)
 
