@@ -1,4 +1,4 @@
-from algorithms import TransposeMatrix
+from algorithms.arrays import TransposeMatrix
 
 
 def run_script():
