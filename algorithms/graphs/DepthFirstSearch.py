@@ -8,6 +8,7 @@ class DepthFirstSearch:
     def add_child(self, name):
         self.children.append(DepthFirstSearch(name))
 
+    # Time O(v + e) | Space O(v)
     def depth_first_search(self, array: list):
         array.append(self.name)
         for child in self.children:
