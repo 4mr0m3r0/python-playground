@@ -46,6 +46,10 @@ def repository_tree():
         OutputExport.export_to_json(content=response.json(), filename="tree")
         print(">>> Tree Success!")
 
+def read_each_element(items):
+    for item in items:
+        content = item['content']
+
 
 if __name__ == '__main__':
     # repository_request()

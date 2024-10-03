@@ -1,0 +1,345 @@
+{
+    "sha": "15ba3b18fc86c18f6fafeaddcf4dfb352fad4461",
+    "tree": [
+        {
+            "mode": "100644",
+            "path": ".gitignore",
+            "sha": "c01e465d02384924c85622e2af4f42c7075ecdf9",
+            "size": 239,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/c01e465d02384924c85622e2af4f42c7075ecdf9"
+        },
+        {
+            "mode": "100644",
+            "path": "LICENSE",
+            "sha": "05753ef48a17dff58c16b2cb62095fba384e2e59",
+            "size": 1062,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/05753ef48a17dff58c16b2cb62095fba384e2e59"
+        },
+        {
+            "mode": "100644",
+            "path": "README.md",
+            "sha": "71404f30dc6cea6dce7b09f989bbd16bf8932795",
+            "size": 838,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/71404f30dc6cea6dce7b09f989bbd16bf8932795"
+        },
+        {
+            "mode": "040000",
+            "path": "algorithms",
+            "sha": "cf89ee7a084c409a1254b6470323ad945f15b1d7",
+            "type": "tree",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/trees/cf89ee7a084c409a1254b6470323ad945f15b1d7"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/CMakeLists.txt",
+            "sha": "c52936394d6751264456402db59656980fe8f512",
+            "size": 105,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/c52936394d6751264456402db59656980fe8f512"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/algorithms.cpp",
+            "sha": "0865d5ef792cffc6a68ffd78d7c6231fbae382d8",
+            "size": 152,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/0865d5ef792cffc6a68ffd78d7c6231fbae382d8"
+        },
+        {
+            "mode": "040000",
+            "path": "algorithms/arrays",
+            "sha": "11c24b12d49fbefa61c792354f5b50f9b613400b",
+            "type": "tree",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/trees/11c24b12d49fbefa61c792354f5b50f9b613400b"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/arrays/JumpingOnTheClouds.cpp",
+            "sha": "e1c2c567ffef0f5519b8d36d86fe6289ddbc770c",
+            "size": 684,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/e1c2c567ffef0f5519b8d36d86fe6289ddbc770c"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/arrays/LeftRotation.cpp",
+            "sha": "766d0e7f282fde55dc74789dc0d39503d70031f3",
+            "size": 596,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/766d0e7f282fde55dc74789dc0d39503d70031f3"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/arrays/NonConstructibleChange.cpp",
+            "sha": "63309d4749be942f7e538f823142f6e7f49c9951",
+            "size": 508,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/63309d4749be942f7e538f823142f6e7f49c9951"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/arrays/SortedSquaredArray.cpp",
+            "sha": "41e8e96506cfbf45384c4fd148ed760e9a8c94ba",
+            "size": 1033,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/41e8e96506cfbf45384c4fd148ed760e9a8c94ba"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/arrays/TournamentWinner.cpp",
+            "sha": "1b576bd11aeca202bbbb6d85c40c7f8ebabe0eda",
+            "size": 1648,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/1b576bd11aeca202bbbb6d85c40c7f8ebabe0eda"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/arrays/TransposeMatrix.cpp",
+            "sha": "d6d0af9e3739f042b1e5eb07dae7ef12815d07c3",
+            "size": 447,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/d6d0af9e3739f042b1e5eb07dae7ef12815d07c3"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/arrays/TwoNumberSum.cpp",
+            "sha": "cc28ccd716b78c051585be97516200fc5306554b",
+            "size": 567,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/cc28ccd716b78c051585be97516200fc5306554b"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/arrays/ValidateSubsequence.cpp",
+            "sha": "e530c0a4c0d81ec09f11c2ca3967e863fbe1582f",
+            "size": 1548,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/e530c0a4c0d81ec09f11c2ca3967e863fbe1582f"
+        },
+        {
+            "mode": "040000",
+            "path": "algorithms/build",
+            "sha": "24969f01ba5cfde639600f4a6604e1367e2d67eb",
+            "type": "tree",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/trees/24969f01ba5cfde639600f4a6604e1367e2d67eb"
+        },
+        {
+            "mode": "100755",
+            "path": "algorithms/build/Algorithms",
+            "sha": "fca6ab6eb12595910d9cb09701f29e47f6f054e6",
+            "size": 18704,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/fca6ab6eb12595910d9cb09701f29e47f6f054e6"
+        },
+        {
+            "mode": "040000",
+            "path": "algorithms/strings",
+            "sha": "4a84b81c2dda0dc85be10f29d9e3f60d4f3a08cd",
+            "type": "tree",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/trees/4a84b81c2dda0dc85be10f29d9e3f60d4f3a08cd"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/strings/CountingValleys.cpp",
+            "sha": "9dd9b497d8f73abf1b172380d666f0291c7ae266",
+            "size": 659,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/9dd9b497d8f73abf1b172380d666f0291c7ae266"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/strings/RepeatedString.cpp",
+            "sha": "ed90850db7764bc5ac3e176bc00f02c19f0e7c5b",
+            "size": 584,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/ed90850db7764bc5ac3e176bc00f02c19f0e7c5b"
+        },
+        {
+            "mode": "040000",
+            "path": "algorithms/trees",
+            "sha": "e800aa8f6740312006925dff11b339cb30ab3e0e",
+            "type": "tree",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/trees/e800aa8f6740312006925dff11b339cb30ab3e0e"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/trees/FindClosestValueInBST.cpp",
+            "sha": "b16a31769daa51165afff6a524597151897ef93d",
+            "size": 414,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/b16a31769daa51165afff6a524597151897ef93d"
+        },
+        {
+            "mode": "100644",
+            "path": "algorithms/trees/HeightOfABinaryTree.cpp",
+            "sha": "6336daf208e7e9bd27a7549cc87e197c4500fc14",
+            "size": 788,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/6336daf208e7e9bd27a7549cc87e197c4500fc14"
+        },
+        {
+            "mode": "100644",
+            "path": "arrays.cpp",
+            "sha": "b1d145a5797e8c0408e9919d07587d702a3fde12",
+            "size": 377,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/b1d145a5797e8c0408e9919d07587d702a3fde12"
+        },
+        {
+            "mode": "100644",
+            "path": "bubble_sort.cpp",
+            "sha": "85a7bec246f416882b5a1bfeca859e7182f875e6",
+            "size": 883,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/85a7bec246f416882b5a1bfeca859e7182f875e6"
+        },
+        {
+            "mode": "100644",
+            "path": "classes.cpp",
+            "sha": "3bc809b420b1bdec4466d74aaaccd12b3261c7ab",
+            "size": 1434,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/3bc809b420b1bdec4466d74aaaccd12b3261c7ab"
+        },
+        {
+            "mode": "100644",
+            "path": "classes_constructors.cpp",
+            "sha": "b60a80a2976ccb314d08be1631e8700029c6a987",
+            "size": 2142,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/b60a80a2976ccb314d08be1631e8700029c6a987"
+        },
+        {
+            "mode": "100644",
+            "path": "classes_objects.cpp",
+            "sha": "99dc20d5412de2af5c5f3323ce51e64710309140",
+            "size": 946,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/99dc20d5412de2af5c5f3323ce51e64710309140"
+        },
+        {
+            "mode": "040000",
+            "path": "exceptions",
+            "sha": "5f10fc3c0492cb0823dbbf0eb9c1c17973f54a66",
+            "type": "tree",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/trees/5f10fc3c0492cb0823dbbf0eb9c1c17973f54a66"
+        },
+        {
+            "mode": "100644",
+            "path": "exceptions/BadLengthException.cpp",
+            "sha": "de3e5703edfa1177842ef22b113050ac17e7a7f5",
+            "size": 190,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/de3e5703edfa1177842ef22b113050ac17e7a7f5"
+        },
+        {
+            "mode": "100644",
+            "path": "exceptions/ExceptionalServer.cpp",
+            "sha": "0cb0092fd821bd1e7f5d6ac8b1a5e13061b3cb20",
+            "size": 1099,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/0cb0092fd821bd1e7f5d6ac8b1a5e13061b3cb20"
+        },
+        {
+            "mode": "100644",
+            "path": "exceptions/inherited_code.cpp",
+            "sha": "21f3f6ddca2fecd18ba93e5dc3a0188629f6848d",
+            "size": 903,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/21f3f6ddca2fecd18ba93e5dc3a0188629f6848d"
+        },
+        {
+            "mode": "100644",
+            "path": "fibonacci_loop.cpp",
+            "sha": "4084dbd8a0d7e8f0c6a15693893f871d28199612",
+            "size": 487,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/4084dbd8a0d7e8f0c6a15693893f871d28199612"
+        },
+        {
+            "mode": "100644",
+            "path": "fibonacci_recursive.cpp",
+            "sha": "7877a28cadab7855c96bc690c449c3e96ad4788a",
+            "size": 399,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/7877a28cadab7855c96bc690c449c3e96ad4788a"
+        },
+        {
+            "mode": "100644",
+            "path": "fibonacci_recursive_memoization.cpp",
+            "sha": "ef1ca00b9409b2dc7cd7ee874f8ba71fe6305ff9",
+            "size": 683,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/ef1ca00b9409b2dc7cd7ee874f8ba71fe6305ff9"
+        },
+        {
+            "mode": "100644",
+            "path": "insertion_sort.cpp",
+            "sha": "e29b020df9bd0de6296c27fea36de71ea7d18496",
+            "size": 708,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/e29b020df9bd0de6296c27fea36de71ea7d18496"
+        },
+        {
+            "mode": "100644",
+            "path": "main.cpp",
+            "sha": "4f60077ad1bd63fc5cfb00093713f20e0268bbc4",
+            "size": 981,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/4f60077ad1bd63fc5cfb00093713f20e0268bbc4"
+        },
+        {
+            "mode": "100644",
+            "path": "pointer.cpp",
+            "sha": "921a3c90270fdd0696218d13257a0c6c2fabf201",
+            "size": 385,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/921a3c90270fdd0696218d13257a0c6c2fabf201"
+        },
+        {
+            "mode": "100644",
+            "path": "selection_sort.cpp",
+            "sha": "3e4fa2f9bda47a5ebe4843a1dfaf440be8c176be",
+            "size": 799,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/3e4fa2f9bda47a5ebe4843a1dfaf440be8c176be"
+        },
+        {
+            "mode": "100644",
+            "path": "strings.cpp",
+            "sha": "769c0bace29265a712c3219968a063cc4b7861de",
+            "size": 356,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/769c0bace29265a712c3219968a063cc4b7861de"
+        },
+        {
+            "mode": "100644",
+            "path": "stringstreams.cpp",
+            "sha": "93d903bfe4449282ce7ef8554f10b478651807af",
+            "size": 541,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/93d903bfe4449282ce7ef8554f10b478651807af"
+        },
+        {
+            "mode": "100644",
+            "path": "structs.cpp",
+            "sha": "358a77eeb6ea31a3d4671f3bf1ddadbf8cca28a0",
+            "size": 507,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/358a77eeb6ea31a3d4671f3bf1ddadbf8cca28a0"
+        },
+        {
+            "mode": "100644",
+            "path": "vectors.cpp",
+            "sha": "fed9af52262b7ed3ec2fc822ab5e621ee55fb5f4",
+            "size": 941,
+            "type": "blob",
+            "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/blobs/fed9af52262b7ed3ec2fc822ab5e621ee55fb5f4"
+        }
+    ],
+    "truncated": false,
+    "url": "https://api.github.com/repos/4mr0m3r0/cpp-playground/git/trees/15ba3b18fc86c18f6fafeaddcf4dfb352fad4461"
+}
