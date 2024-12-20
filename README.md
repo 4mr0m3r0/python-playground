@@ -12,5 +12,5 @@ Python Exercises, Data Structure, Algorithms, etc.
 |                        | NodeDepths             |                  |         |                      |
 
 ### Resources:  
-* AlgoExpert https://www.algoexpert.io/
-* HackerRank https://www.hackerrank.com/
+* 🌐 AlgoExpert https://www.algoexpert.io/
+* 🌐 HackerRank https://www.hackerrank.com/
