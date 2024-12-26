@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 requests = "*"
 python-dotenv = "*"
+streamlit = "*"
+langchain = "*"
+langchain-openai = "*"
+langchain-community = "*"
+langchainhub = "*"
 
 [dev-packages]
 
