@@ -8,7 +8,7 @@ Python Exercises, Data Structure, Algorithms, etc.
 |------------------------|------------------------|------------------|---------|----------------------|
 | NonConstructibleChange | BranchSums             | DepthFirstSearch |         | Minimum Waiting Time |
 | TournamentWinner       | EvaluateExpressionTree |                  |         | Class Photos         |
-| TransposeMatrix        | FindClosestValueInBST  |                  |         |                      |
+| TransposeMatrix        | FindClosestValueInBST  |                  |         | TandemBicycle        |
 |                        | NodeDepths             |                  |         |                      |
 
 ### Resources:  
