@@ -5,10 +5,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-def scrape_linkedin_profile():
+def scrape_linkedin_profile(linkedin_profile_url: str) -> dict:
     """scrape information from LinkedIn profiles,
     Manually scrape the information from the LinkedIn profile"""
-    linkedin_profile_url = os.environ['LINKEDIN_URL']
+    linkedin_profile_url = os.environ['LINKEDIN_URL'] # this is a mock in order to work with it
     response = requests.get(linkedin_profile_url, timeout=10)
     data = response.json()
     data = {

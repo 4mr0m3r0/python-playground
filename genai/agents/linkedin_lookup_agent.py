@@ -9,9 +9,11 @@ from langchain.agents import (
     AgentExecutor
 )
 from langchain import hub
-load_dotenv(dotenv_path=".env")
+
+from genai.tools.tools import get_profile_url_tavily
 
 def lookup(name: str) -> str:
+
     llm = ChatOpenAI(temperature=0, model_name="gpt-4o-mini")
     template = """
     Given the full name {name_of_person} I want you to get it me a link to their LinkedIn profile page.
@@ -23,7 +25,7 @@ def lookup(name: str) -> str:
     tools_for_agent = [
         Tool(
             name="Crawl Google 4 linkedin profile page",
-            func="?",
+            func=get_profile_url_tavily,
             description="useful for when you need get the LinkedIn Page URL",
         )
     ]
@@ -37,4 +39,5 @@ def lookup(name: str) -> str:
     return linked_profile_url
 
 if __name__ == "__main__":
-    lookup(name="Angel Romero")
+    load_dotenv(dotenv_path="../.env")
+    lookup(name="<YOUR INPUT>")
