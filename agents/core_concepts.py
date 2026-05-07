@@ -1,11 +1,13 @@
 import doctest
 from unittest import result
 
+import parser
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+from langchain.chat_models import init_chat_model
 
 load_dotenv()
 
@@ -52,7 +54,42 @@ def demo_streaming():
         print(chunk, end="", flush=True)
     print()
 
+def demo_schema_inspection():
+    """Demonstrate input/output schema inspection."""
+    prompt = ChatPromptTemplate.from_template("Summarize the following text: {text}")
+    model = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
+    parser = StrOutputParser()
+    chain = prompt | model | parser
+    # Inspect input and output schemas
+    input_schema = chain.input_schema.model_json_schema()
+    output_schema = chain.output_schema.model_json_schema()
+    print(f"Input Schema: {input_schema}")
+    print(f"Output Schema: {output_schema}")
+
+def exercise_first_chain():
+    """
+    EXERCISE: Create a chain that:
+    1. Takes a product name and target audience
+    2. Generates a marketing tagline
+    3. Returns just the tagline as a string
+    Test with: product="AI Course", audience="developers"
+    """
+    prompt = ChatPromptTemplate.from_template(
+        "Create a marketing tagline for a product named '{product}' targeting '{audience}'."
+    )
+    model = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
+    parser = StrOutputParser()
+    chain = prompt | model | parser
+    result = chain.invoke({"product": "AI Course", "audience": "developers"})
+    print(f">>> Marketing Tagline: {result}")
+
+def new_way():
+    # the universal way to initialize a model
+    model = init_chat_model("gpt-4o-mini", temperature=0.7, max_tokens=1500)
+    
 if __name__ == "__main__":
     # demo_basic_chain()
     # demo_batch_execution()
-    demo_streaming()
+    # demo_streaming()
+    # demo_schema_inspection()
+    exercise_first_chain()
